@@ -1,0 +1,25 @@
+# Gecompileerde programma's
+*.exe
+*.dll
+*.syso
+build/bin/
+
+# Opnames en meetresultaten — kunnen je netwerkverkeer bevatten
+*.pcap
+*.pcapng
+*-uitslag.txt
+
+# Frontend
+frontend/node_modules/
+frontend/dist/*
+!frontend/dist/.gitkeep
+
+# Gegenereerd uit de tekstcatalogus
+frontend/src/i18n/keys.ts
+
+# Editor en OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+frontend/package.json.md5
